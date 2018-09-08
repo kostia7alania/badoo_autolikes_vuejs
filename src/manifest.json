@@ -24,6 +24,6 @@
       "matches": ["*://*/*"],
       "js": ["content.js"]
   }],
-  "permissions":["https://us1.badoo.com/encounters*"]
+  "permissions":["https://*.badoo.com/encounters*"]
 
 }
