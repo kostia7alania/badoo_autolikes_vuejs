@@ -1,7 +1,8 @@
 window.count=0;
 function start() {
     console.log('start');
-    window.a = setInterval(e=>{
+
+    window.a = 'a' in window? void(0):setInterval(e=>{
         window.document.querySelectorAll('.profile-action--yes')[0].click()
         window.createDiv();  
         count++;
