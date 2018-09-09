@@ -2,7 +2,7 @@ window.count=0;
 function start() {
     console.log('start');
 
-    window.badooInterval = 'badooInterval' in window? window.badooInterval:setInterval(e=>{
+    window.badooInterval = 'badooInterval' in window && window.badooInterval>0? window.badooInterval:setInterval(e=>{
         window.document.querySelectorAll('.profile-action--yes')[0].click()
         window.createDiv();  
         count++;
