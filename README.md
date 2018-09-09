@@ -19,8 +19,8 @@
 # Badoo.com auto likes Framework Vue JS
 
 Google's Samples 4 help ->
-https://github.com/GoogleChrome/chrome-app-samples<br>
-https://github.com/Kocal/vue-web-extension
+https://github.com/GoogleChrome/chrome-app-samples
+Other Samples 4 help -> https://github.com/Kocal/vue-web-extension
 
 # Usage
 
