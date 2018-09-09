@@ -2,7 +2,7 @@ window.count=0;
 function start() {
     console.log('start');
 
-    window.a = 'a' in window? void(0):setInterval(e=>{
+    window.badooInterval = 'badooInterval' in window? window.badooInterval:setInterval(e=>{
         window.document.querySelectorAll('.profile-action--yes')[0].click()
         window.createDiv();  
         count++;
@@ -11,7 +11,7 @@ function start() {
 }
 function stop(){
     console.log('stop')
-    clearInterval(window.a);
+    clearInterval(window.badooInterval);
 }
 window.onload = function(){
     if(document.querySelectorAll('.handler').length==0){createDiv()}
@@ -24,6 +24,7 @@ window.onload = function(){
     var map = ['START','STOP'].map(e=>{
         var span = document.createElement('span');
         span.innerText=e;
+        span.style.padding="3px";
         span.style.cursor='pointer';
 		span.style.border="3px white solid";
 		span.style.borderRadius="30px";

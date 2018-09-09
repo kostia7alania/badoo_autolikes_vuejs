@@ -31,6 +31,6 @@
     }
   ],
   "permissions": [
-    "https://us1.badoo.com/encounters*"
+    "https://*.badoo.com/encounters*"
   ]
 }
