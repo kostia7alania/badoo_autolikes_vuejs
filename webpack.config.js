@@ -3,8 +3,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WebpackShellPlugin = require('webpack-shell-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ChromeExtensionReloader = require('webpack-chrome-extension-reloader');
-const { VueLoaderPlugin } = require('vue-loader');
-const { version } = require('./package.json');
+const {
+  VueLoaderPlugin
+} = require('vue-loader');
+const {
+  version
+} = require('./package.json');
 
 const config = {
   mode: process.env.NODE_ENV,
@@ -23,8 +27,7 @@ const config = {
     extensions: ['.js', '.vue'],
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.vue$/,
         loaders: 'vue-loader',
       },
@@ -59,10 +62,19 @@ const config = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-    new CopyWebpackPlugin([
-      { from: 'icons', to: 'icons', ignore: ['icon.xcf'] },
-      { from: 'popup/popup.html', to: 'popup/popup.html' },
-      { from: 'options/options.html', to: 'options/options.html' },
+    new CopyWebpackPlugin([{
+        from: 'icons',
+        to: 'icons',
+        ignore: ['icon.xcf']
+      },
+      {
+        from: 'popup/popup.html',
+        to: 'popup/popup.html'
+      },
+      {
+        from: 'options/options.html',
+        to: 'options/options.html'
+      },
       {
         from: 'manifest.json',
         to: 'manifest.json',
