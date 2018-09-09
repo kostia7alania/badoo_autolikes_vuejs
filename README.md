@@ -8,14 +8,11 @@
 5) Выбираем папку Dist (п.2)
 6) Заходим на https://us1.badoo.com/encounters и видим новые кнопки Start / Stop
 7) Enjoy;
----------------
+```
 Обсуждение этой темы - https://vk.com/topic-125614288_39159623
 
-```
-
-# badoo_autolikes_vuejs
-Badoo autolikes using Framework Vue JS
-#samples
+# Badoo.con auto likes Framework Vue JS
+# samples
 -> https://github.com/GoogleChrome/chrome-app-samples
 
 # Usage 
