@@ -13,8 +13,9 @@
 
 
 <hr>
-# Badoo.con auto likes Framework Vue JS
-# samples
+
+# Badoo.com auto likes Framework Vue JS
+## samples
 -> https://github.com/GoogleChrome/chrome-app-samples
 
 # Usage 
