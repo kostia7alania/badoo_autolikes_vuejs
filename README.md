@@ -4,7 +4,9 @@ Badoo autolikes using Framework Vue JS
 -> https://github.com/GoogleChrome/chrome-app-samples
 
 #Usage
-<div style="position:relative;height:0;padding-bottom:62.47%"><iframe src="https://www.youtube.com/embed/6yxOiYMv1ac?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="576" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:62.47%">
+[![Demo video on YouTube](https://j.gifs.com/zKGgr8.gif)](https://www.youtube.com/watch?v=6yxOiYMv1ac)
+</div>
 
 #4 dev 
 ```bash
