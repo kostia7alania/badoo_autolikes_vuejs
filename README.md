@@ -1,3 +1,18 @@
+9.9.2018
+# Расширение хрома для автоматических лайков на Badoo.
+```bash
+1) Качаем репозиторий с расширением: https://github.com/kostia7alania/badoo_autolikes_vuejs 
+2) Распаковываем куда-нибудь
+3) Заходим в хроме - меню - Дополнительные инструменты - Расширения 
+4) Нажать кнопку "Загрузить распакованное приложение"
+5) Выбираем папку Dist (п.2)
+6) Заходим на https://us1.badoo.com/encounters и видим новые кнопки Start / Stop
+7) Enjoy;
+---------------
+Обсуждение этой темы - https://vk.com/topic-125614288_39159623
+
+```
+
 # badoo_autolikes_vuejs
 Badoo autolikes using Framework Vue JS
 #samples
