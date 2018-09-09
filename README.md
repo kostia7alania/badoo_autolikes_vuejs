@@ -11,6 +11,8 @@
 ```
 Обсуждение этой темы - https://vk.com/topic-125614288_39159623
 
+
+<hr>
 # Badoo.con auto likes Framework Vue JS
 # samples
 -> https://github.com/GoogleChrome/chrome-app-samples
