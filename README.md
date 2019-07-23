@@ -5,12 +5,17 @@
 3. Click on the button "Load unpacked"
 4. Choose directory "Dist" (e.g. badoo_autolikes_vuejs\dist)
 5. Open https://badoo.com/encounters
-6. Click on the Start
-7. Enjoy;
+6. Press F12, choose Mobile version, Refresh;
+7. Click "Start"
+8. Enjoy;
 
 [![Demo video on YouTube](./BADOO-autoliker-usage.gif)](https://www.youtube.com/watch?v=6yxOiYMv1ac)
 
-# Old 9.9.2018
+Discussion of this topic: https://vk.com/topic-125614288_39159623?post=1058
+
+# Old
+
+9.9.2018
 
 ## Расширение хрома для автоматических лайков на Badoo.
 
