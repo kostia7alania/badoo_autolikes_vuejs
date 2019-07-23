@@ -1,29 +1,50 @@
 {
-  "name": "vue-chrome-extension",
-  "description": "A Vue.js web extension",
-  "version": null,
+  "name": "Badoo autoliker",
+  "description": "Badoo with a Vue.js web extension",
+  "version": 0.12,
   "manifest_version": 2,
+
   "icons": {
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
   },
   "browser_action": {
-    "default_title": "vue-chrome-extension",
+    "default_title": "❤️ BADOO AUTOLIKER ❤️",
     "default_popup": "popup/popup.html"
   },
+
   "background": {
-    "scripts": [
-      "background.js"
-    ]
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "options_ui": {
     "page": "options/options.html",
     "chrome_style": true
   },
-  "content_scripts":[{
-      "matches": ["*://*/*"],
-      "js": ["content.js"]
-  }],
-  "permissions":["https://*.badoo.com/encounters*"]
 
+  "content_scripts": [
+    {
+      "matches": ["*://badoo.com/*"],
+      "js": ["content/content.js"]
+    }
+  ],
+  "permissions": ["https://*.badoo.com/encounters*", "storage", "tabs"],
+  "commands": {
+    "toggle-feature-foo": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Toggle feature foo"
+    },
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A"
+      }
+    },
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Q"
+      }
+    }
+  }
 }
