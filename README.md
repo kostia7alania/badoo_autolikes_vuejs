@@ -1,7 +1,7 @@
 # UPDATE 23 JUL 2019
 
 ```bash
-1) Download & unpack: https://github.com/kostia7alania/badoo_autolikes_vuejs
+1) Download & unpack: https://github.com/kostia7alania/badoo_autolikes_vuejs/archive/master.zip
 2) Chrome -> Menu ->  - More tools -> Extensions
 3) Click on the button "Load unpacked"
 4) Choose directory "Dist" (e.g. badoo_autolikes_vuejs\dist)
@@ -10,9 +10,9 @@
 7) Enjoy;
 ```
 
-# old 9.9.2018
+# Old 9.9.2018
 
-# Расширение хрома для автоматических лайков на Badoo.
+## Расширение хрома для автоматических лайков на Badoo.
 
 ```bash
 1) Качаем репозиторий с расширением: https://github.com/kostia7alania/badoo_autolikes_vuejs
