@@ -1,14 +1,14 @@
 # UPDATE 23 JUL 2019
 
- 
-1) Download & unpack: <a href="https://github.com/kostia7alania/badoo_autolikes_vuejs/archive/master.zip">Badoo autolikes.zip</a>
-2) Chrome -> Menu ->  - More tools -> Extensions
-3) Click on the button "Load unpacked"
-4) Choose directory "Dist" (e.g. badoo_autolikes_vuejs\dist)
-5) Open https://badoo.com/encounters
-6) Click on the Start
-7) Enjoy;
- 
+1. Download & unpack: <a href="https://github.com/kostia7alania/badoo_autolikes_vuejs/archive/master.zip">Badoo autolikes.zip</a>
+2. Chrome -> Menu -> - More tools -> Extensions
+3. Click on the button "Load unpacked"
+4. Choose directory "Dist" (e.g. badoo_autolikes_vuejs\dist)
+5. Open https://badoo.com/encounters
+6. Click on the Start
+7. Enjoy;
+
+[![Demo video on YouTube](./BADOO-autoliker-usage.gif)](https://www.youtube.com/watch?v=6yxOiYMv1ac)
 
 # Old 9.9.2018
 
