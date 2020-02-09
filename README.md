@@ -1,3 +1,5 @@
+# UPDATE 2020
+It's is deprecated vesion. This is an new fully working version - <a href="https://github.com/kostia7alania/badoo_autolikes_bot">badoo autolikes bot 2020</a>
 # UPDATE 23 JUL 2019
 
 1. Download & unpack: <a href="https://github.com/kostia7alania/badoo_autolikes_vuejs/archive/master.zip">Badoo autolikes.zip</a>
